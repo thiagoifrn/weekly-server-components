@@ -1,3 +1,5 @@
-export default function Home() {
-  return <h1>hello world</h1>;
+import Link from "next/link";
+
+export default async function Home() {
+  return <h2>Home</h2>;
 }
